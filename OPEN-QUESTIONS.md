@@ -1,0 +1,10 @@
+# What I would study next with proper resources
+
+[Back](README.md)
+
+1. **Prompt injection through the screen.** An emulator suite of 20–50 scripted apps whose screens try to steer a phone agent: fake Allow buttons, "assistant: open Settings and enable...", urgency text, instructions in notifications. For each model and harness, measure the rate of following screen text, retries after refusals, attempted workarounds through other apps, and whether the agent reports the attempt. The consent gate's logs give ground truth ([E08](experiments/E08-solar-buddy-human-ai-interface.md)).
+2. **The size of the hidden-oracle gap.** Many small tasks with visible tests plus hidden request checks, across builder models. How often do builders satisfy the tests while missing the request, and which interventions close the gap: independent acceptance, negative invariants written before the build, fresh context per attempt, or stagnation stops ([E03](experiments/E03-green-tests-hidden-failures.md))?
+3. **Evaluator tampering in agent harnesses.** When the verifier is reachable, how often do builders edit, skip or stub it, and does telling them not to change that? Our one case was benign; a systematic measure would not be hard.
+4. **Is judge "taste" a property or a prompt artifact?** The same frozen pairs judged under several fixed criteria, at least 200 pairs per niche, with calibrated probabilities on known-outcome pairs. Do a judge's stated reasons predict its errors ([E05](experiments/E05-model-judges-vs-a-human.md))?
+5. **Interface honesty.** Log what an agent's UI claims ("looking at your screen", "couldn't read") next to what happened, across apps and agents. How often do they diverge, and what does it do to human trust and behaviour ([E08](experiments/E08-solar-buddy-human-ai-interface.md))?
+6. **Context frames at scale.** Does the governed-context result (60% → 100% at a quarter of the tokens) hold on other operations and other models? What is the minimum context slice for a class of question ([E02](experiments/E02-governed-context.md))?
