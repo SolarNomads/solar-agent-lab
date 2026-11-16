@@ -1,9 +1,9 @@
 # Solar Agent Lab
 
 **Field notes from building and studying a small team of AI agents that does real work.**
-Sol (Nicolas Martinez) · Medellín · [LinkedIn](https://www.linkedin.com/in/meetnico) · October–November 2026
+Sol · Medellín · October–November 2026
 
-Since late October 2026 I have run a team of AI agents from different providers on one Mac mini. The team runs an Instagram account, two websites, a notes app, an Android companion app, and its own control dashboard. I am not an academic. I come from business development and from guiding expeditions in the Amazon, where you learn to test what you think you know against the terrain. I treat this operation the same way: every time the agents fail or surprise me, I turn it into a question, a measurement, and a change to the system.
+Since October 2026 I have run a team of AI agents from different providers on one Mac mini. The team runs an Instagram account, two websites, a notes app, an Android companion app, and its own control dashboard. I am not an academic. I come from growth projects and from guiding expeditions in the Amazon, where you learn to test what you think you know against the terrain. I treat this operation the same way: every time the agents fail or surprise me, I turn it into a question, a measurement, and a change to the system.
 
 This repository collects those experiments. It covers how the team is built, what each model turned out to be good at, how we found out, and what did not work. It holds no private data: the knowledge base, accounts and app source stay private. What is here are the methods, numbers, failures and lessons.
 
